@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: white;
+    background-color: #3f8f8d;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+
+}
+form{
+    width: 50%;
+    padding: 15px;
+    margin: 20px;
+   
+
+}
+fieldset{
+    border: black 1px dashed;
+    border-radius: 1em;
+    overflow: hidden;
+}
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+label{
+    margin:10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+input{
+    width:380px;
+    margin: 10px;
+    
+}
+select{
+    width:390px;
+    margin: 10px;
+    padding: 5px;
+}
+button{
+    padding: 3px;
+    margin: 10px;
+    background-color:  #609c4d;
+
+}
+table{
+    width: 50%;
+}
+tr :nth-child(odd){
+    background-color: #f6b8d1;
+}
+tr :nth-child(even){
+    background-color: #ffd3de;
+}
+footer p{
+    text-align: center;
+    background-color: #5dc0a6;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    padding-top: 10px;
+}
